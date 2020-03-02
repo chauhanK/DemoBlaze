@@ -65,7 +65,9 @@ public class PurchaseItems
    @And("^User click on the \"([^\"]*)\" button$")
    public void user_click_on_the_something_button(String strArg1) throws Throwable
    {
-   // locate element(by xpath,name,id etc) and click
+   // switch to alert pop and accept
+
+     // driver.switchTo().alert().accept();
    }
 
    @And("^User clicks OK$")
